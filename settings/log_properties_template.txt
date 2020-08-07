@@ -20,15 +20,3 @@ log4cpp.appender.ofd.fileName=%PATH%/%DATE% ofd.log
 log4cpp.appender.ofd.maxDaysKeep=14
 log4cpp.appender.ofd.layout=PatternLayout
 log4cpp.appender.ofd.layout.ConversionPattern=%d{%Y.%m.%d %H:%M:%S.%l} T:%t %-5p [%c] %m%n
-
-log4cpp.appender.device_debug=DailyRollingFileAppender
-log4cpp.appender.device_debug.fileName=%PATH%/%DATE% device_debug.log
-log4cpp.appender.device_debug.maxDaysKeep=14
-log4cpp.appender.device_debug.layout=PatternLayout
-log4cpp.appender.device_debug.layout.ConversionPattern=%d{%Y.%m.%d %H:%M:%S.%l} T:%t %-5p [%c] %m%n
-
-log4cpp.appender.file1C=DailyRollingFileAppender
-log4cpp.appender.file1C.fileName=%PATH%/%DATE% fptr1C.log
-log4cpp.appender.file1C.maxDaysKeep=14
-log4cpp.appender.file1C.layout=PatternLayout
-log4cpp.appender.file1C.layout.ConversionPattern=%d{%Y.%m.%d %H:%M:%S.%l} T:%t %-5p [%c] %m%n
